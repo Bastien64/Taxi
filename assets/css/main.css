@@ -7,6 +7,7 @@ li, h2 {
 	color: #ffffff;
 }
 .home-description{
+	color: rgb(139, 139, 139);
 	font-style: italic;
 	font-weight: 600;
 	font-family: "Crimson";
@@ -98,9 +99,27 @@ p{
 	font-family: 'Josefin Sans';
 }
 
+.img-responsive2{
+	width: 65%;
+}
+
+
+@media (max-width: 778px)
+{
+
+	.img-responsive2{
+		width: 95vw;
+	}
+	.logo{
+		padding-top: 10px;
+		text-transform: uppercase;
+		font-size: 12px;
+	}
+}
+
 /*Home Style*/
 .logo{
-	padding-top: 100px;
+	padding-top: 50px;
 	text-transform: uppercase;
 	font-size: 12px;
 }
@@ -125,7 +144,7 @@ footer{
     text-align: center;
     display: block;
     clear: both;
-    margin-top: 70px;	 
+    margin-top: 20px;	 
 }
 
 .back i{
