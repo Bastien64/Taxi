@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var popup = document.getElementById("popupReservation");
     var span = document.getElementsByClassName("close")[0];
-    var contactLink = document.getElementById("contact");
+    var contactLink = document.getElementsByClassName("contact");
 
     // Afficher le popup dès l'ouverture de la page
     popup.style.display = "block";
