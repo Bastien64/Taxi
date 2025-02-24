@@ -134,8 +134,9 @@
             <div class="container main">
                 <div class="row">
                     <div class="col-md-6 left" id="contact_left">
-                        <img class="img-responsive img-rabbit" src="assets/images/Voiture2.jpg">
+                        <img class="img-responsive img-rabbit" src="assets/images/pays.jpg">
                     </div>
+
 
                     <div class="col-md-6 right" id="contact_right">
                         <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Accueil </a>
@@ -148,22 +149,36 @@
                         <!-- form -->
                         <a href="tel:+33749043262" style="color: white !important; text-decoration: none;"><img src="assets/images/appel.png" alt="">+33749043262</a>
                         <p style="margin-top: 25px; margin-bottom: 25px;"><strong>Ou par formulaire</strong></p>
-                        <form class="form_edit"> 
-                            <div class="form-group">
-                                <input type="name" class="form-control" id="exampleInputName" placeholder="Nom et prénom">
-                            </div>
-                            <div class="form-group">
-                                <input type="name" class="form-control" id="exampleInputName" placeholder="Date">
-                            </div>
-                            <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Heure">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Adresse de ">
-                                </div>
-
-                            <button type="submit" class="btn btn-rabbit submit">Envoyer</button>
+                        <form class="form_edit" action="https://formspree.io/f/xovjzgzk" method="POST" style="display: flex; flex-direction: column; max-width: 400px; gap: 10px;">
+                            <label>
+                                Votre Nom
+                                <input type="text" name="nom" style="width: 100%; padding: 8px;color: black;">
+                            </label>
+                            <label>
+                                Votre email:
+                                <input type="email" name="email" style="width: 100%; padding: 8px; color: black;">
+                            </label>
+                            <label>
+                                Votre numéro de téléphone:
+                                <input type="text" name="telephone" style="width: 100%; padding: 8px;color: black;">
+                            </label>
+                            <label>
+                                Date de prise en charge:
+                                <input type="date" name="date" style="width: 100%; padding: 8px;color: black;">
+                            </label>
+                            <label>
+                                Adresse de prise en charge:
+                                <input type="text" name="adresse" style="width: 100%; padding: 8px;color: black;">
+                            </label>
+                            <label>
+                                Destination:
+                                <input type="text" name="destination" style="width: 100%; padding: 8px;color: black;">
+                            </label>
+                            <button type="submit" class="btn btn-rabbit submit" style="padding: 10px; background-color: #007BFF; color: white; border: none; cursor: pointer;">
+                                Envoyer
+                            </button>
                         </form>
+                        
                     </div>
                 </div>
             </div>
