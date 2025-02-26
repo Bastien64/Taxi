@@ -39,7 +39,7 @@ li, h2 {
 @media (min-width: 778px)
 {
 		.main{
-			height: 100vh;
+
 			overflow: hidden;
 		}
 
@@ -158,7 +158,16 @@ footer{
     margin-right: 17px;
     font-size: 20px;
 }
-
+.contact_scroll {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 1000;
+	display: none;
+}
 
 .form-control{
 	margin-top: 30px;
