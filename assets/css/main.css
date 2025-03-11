@@ -109,7 +109,7 @@ label{
 	text-transform: uppercase;
 	font-family: 'Josefin Sans';
 }
-
+.img-responsive5 {height: 100vh;}
 .img-responsive2{
 	width: 65%;
 }
