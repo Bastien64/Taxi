@@ -420,6 +420,11 @@ footer{
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 		border-radius: 10px;
 	}
+	form {
+		margin: auto;
+		width: 90%;
+		overflow: hidden;
+	}
 }
 
 .close {
